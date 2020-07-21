@@ -1,0 +1,56 @@
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+.app {
+  background-color: whitesmoke;
+  width: 65%;
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: -1px 2px 8px -1px; lightgrey;
+}
+
+.converter {
+  display: flex;
+  align-items: flex-end; 
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  width: 80%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 0 4px;
+}
+
+input[type="button"] {
+  display: inline-flex;
+  border: 1px solid lightslategray;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #eff0f7;
+  box-shadow: -1px 2px 8px -1px;
+}
+
+@media only screen and (max-width : 600px){
+    .app{
+        background-color: lavenderblush;
+         width: auto; 
+        
+    }
+}
